@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	
+	<string name="sd_shared">Please exit the USB mode, then run the application</string>
+	<string name="no_vide_file">No video files</string>
+	<string name="sendathor_email_title">Make friends with the author</string>
+	<string name="sendathor_receiver">E-mail</string>
+	<string name="sendatho_email_theme">I am</string>
+	
+	<string-array name="sendathor_timeoutSpinner">
+		<item>I am your users</item>
+		<item>I have to source</item>
+		<item>I am an investor</item>
+		<item>I am an investor I am your man</item>
+		<item>I am your classmate</item>
+		<item>I am your colleagues</item>
+		<item>I am your relatives</item>
+		<item>I am certain</item>
+		<item>I was passing</item>
+	</string-array>
+	 <string name="sendathor_advice_appraise">Looking for:</string>
+	   <string name="sendathor_mark_friend_rad">Friends</string>
+	   <string name="sendathor_give_code">To Source</string> 
+	   <string name="sendathor_see_you">Cooperation</string> 
+	    <string name="sendathor_email_button">Send e-mail</string>
+	    <string name="sendathor_email_back">Back</string>
+	
+	<string name="sendathor_email_addr">E-mail address can not be empty</string>
+	<string name="sendathor_email_Subject">Message subject can not be empty</string>
+	<string name="sendathor_email_content">Message content can not be empty</string>
+	<string name="sendathor_email_comment">You did not say what the purpose of</string>
+	
+	<string name="sendathor_emailcontent">Then give him to say something</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	<string name="sendfriend_email_top_title">Recommend to my friends</string>
+	<string name="sendfriend_receiver_friend">E-mail</string>
+	<string name="friend_addr">Enter friend email address</string>
+	<string name="sendfriend_email_theme">I am</string>
+	
+	<string-array name="sendfriend_email_subject">
+		<item>I am your man</item>
+		<item>I am your friend</item>
+		<item>I am your classmate</item>
+		<item>I am your colleagues</item>
+		<item>I am the author of this software</item>
+		<item>I am your relatives</item>
+		<item>I am certain</item>
+		<item>I was passing</item>
+	</string-array>
+	
+	<string name="sendfriend_email_content_title">Message content</string>
+	<string name="sendfriend_email_content">\tRecommend a screen in stunning multimedia AFu Player  android mobile phone player to you, you see, go here to download:\thttp://www.eoemarket.com/apps/9348</string>
+	<string name="sendfriend_email_summary">Overall</string>
+	
+	<string name="sendfriend_email_ok">Awesome</string>
+	<string name="sendfriendr_email_verry_ok">Really good</string> 
+	<string name="sendfriend_email_generally">General</string> 
+	   
+	<string name="sendfriend_email_button">Send e-mail</string>
+	<string name="sendfriend_email_back">Back</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<string name="app_name">AFu Player</string>
+	<string name="send_email_author">Welcome to the suggestion</string>
+	<string name="receiver">Receiver</string>
+	 <string name="send_email_theme">Theme</string>
+	 <string name="send_email_content">Message</string>
+	 <string name="emailcontent">Thank you for your support</string>
+	 <string name="advice_send_button">Send e-mail</string>
+	 <string name="advice_return_button">Back</string>
+	 
+	<string-array name="advice_timeout_labels">
+		<item>【AFuPlayer】：Excellent performance</item>
+		<item>【AFuPlayer】：Interface luxuriant</item>
+		<item>【AFuPlayer】：powerful</item>
+		<item>【AFuPlayer】：Interface general</item>
+		<item>【AFuPlayer】：usually</item>
+	</string-array>
+	
+	
+	
+	<string name="advice_str_message">Thanks for your letter！</string>
+    <string name="advice_appraise">comment:</string>
+    <string name="advice_verygood">Very good</string>
+    <string name="advice_good">good</string> 
+	<string name="advice_general">general</string> 
+	
+	<string name="infomation_send_friend">Classic software</string>
+	
+	<string name="advice_email_addr">Email address can t for empty</string>
+	<string name="advice_email_Subject">Email subject is empty</string>
+	<string name="advice_email_content">Mail contents can t for empty</string>
+	<string name="advice_email_comment">You have no comment</string>
+	
+	<string name="advice_send_emailcontent">\tI really like this software, take your spare time for everyone to use, you hard。</string>
+	<string name="advice_user_comment">【User comment】：</string>
+	<string name="advice_user_content"> ；\n【content】： </string>
+	
+	
+	<string name="mainmenu_play">Play Lists</string>
+	<string name="mainmenu_multiplay">About software</string>
+	<string name="mainmenu_options">Set</string>
+	<string name="mainmenu_scores">Help</string>
+	<string name="mainmenu_facebook_fan_us">See Author</string>
+	<string name="mainmenu_exit">Exit</string>
+	<string name="author_music_pause">pause</string>
+	<string name="author_music_play">play</string>
+	
+
+	<string name="options_title">Options</string>
+	<string name="options_music">Background Music</string>
+	<string name="options_sound">Button sound</string>
+	<string name="options_on">On&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+	<string name="options_on_english">On&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+	<string name="options_off">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Off</string>
+	<string name="options_off_english">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Off</string>
+	<string	name="options_sure">sure</string>
+	<string	name="options_sure_english">sure</string>
+	<string name="options_hint_msg">Oh sure set to take effect by </string>
+    
+    
+    <string name="duration_tag">Movie time :</string>
+    <array name="items_for_allVideo">
+		<item>Play</item>
+		<item>Rename</item>
+		<item>Delete</item>
+	</array>
+   
+   <string name="file_notexist">The file to do not exist already</string>
+	<string name="confirm_addvideo">Confirm to add this video?</string>
+	<string name="fail_renameexist">This file already exists!</string>
+	<string name="fail_renametoolong">The file name is too long, rename fail!</string>
+	<string name="fail_renameempty">File called empty, renaming fail!</string>
+	<string name="rename_dialog">Rename</string>
+	<string name="confirm_deletefile">Want to delete the file confirm? </string>
+	<string name="button_ok">Yes</string>	
+	<string name="button_cancel">No</string>
+	<string name="fail_deletefile">Delete file fail</string>
+		
+
+	<string
+		name="options_language">Language</string>
+	<string
+		name="options_language_english">English</string>
+	<string
+		name="options_language_chinese">中文</string>
+	<string
+		name="options_language_trandition_chinese">繁體</string>
+		
+	
+
+	
+	<string name="play_lists_back">Back</string>
+	<string name="play_lists_see">play lists</string>
+	<string name="controler_exit">Exit</string>
+	<string name="play_lists">PlayLists</string>
+	
+	
+	<string name="control_play_lists">PlayLists</string>
+    <string name="control_previous">Previous</string>
+    <string name="control_next">Next</string>
+    <string name="control_play_state">Play</string>
+    <string name="control_pause_state">Pause</string>
+    <string name="control_menu">Menu</string>
+    <string name="control_soundControl">Tuning</string>
+    <string name="control_soundControl_mute">Mute</string>
+
+	<string name="error_video_msg_title">Sorry </string>
+	<string name="error_video_msg">You play the video format is not correct, or the network environment is not good! </string>
+	<string name="error_video_sure">Know </string>
+	<string name="error_video_learn">To understand </string>
+	
+	<string name="app_hint_msg">Please press the button on the screen!</string>
+	
+	
+
+	<string name="app_isExit_title">Tips</string>
+	<string name="app_isExit_no">Cancel</string>
+	<string name="app_isExit_yes">Sure</string>
+	<string name="app_isExit_msg">Do you want to exit the AFu Playe? </string>
+	<string name="app_isSdcard_no_msg">Your mobile phone memory card is not installed, continue?</string>
+	<string name="app_isSdcard_no">Continue to enter</string>
+	<string name="app_isSdcard_yes">Exit</string>
+	<string name="app_isSdcard_playList_msg">Your mobile phone memory card is not installed, the card can not read the paper!</string>
+	
+
+	<string name="last_video_msg">Has a video of the last </string>
+	<string name="front_video_msg">The first video is already a </string>
+
+
+
+	<string name="author_informationHead">Author introduction</string>
+	<string name="auhor_suggest">My work</string>
+	<string name="auhor_back">Back</string>
+	
+	<string name="help_titl">Help</string>
+	<string name="help_suggest">Feedback</string>
+	<string name="help_back">Back</string>
+	
+	<string name="help_contact_info">Haha, read the description of the operation more convenient.</string>
+	
+	
+	<string
+		name="author_contact_info">My home is Liping Guizhou \n
+		Dong Liping
+	</string>
+	<string
+		name="informationHead">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;AFu Player
+		  v2.0 
+</string>
+
+
+
+	
+	<string
+		name="contact_info">I am from the beautiful Liping Guizhou \n
+		Dong Liping
+	</string>
+	
+	<string
+		name="version_info_bottom">version：v2.0  \n
+		Version name：himself
+	</string>
+	
+	
+	
+
+
+	
+	
+	<string name="author_head">
+		call:AFu\n
+	    name:Guangfu Yang \n
+		sex: man\n
+		come from:Guizhou LiPing\n
+		profession:Software Engineer \n
+		speciality:java、android...\n
+		hobby:money \n\</string>
+	
+	
+	
+	<string name="help_information">
+		&#160;&#160;&#160;&#160;&#160;&#160;
+		【AFu Player】Android mobile operating system is a super gorgeous screen,
+		Smart convenience, organization and coordination, design humane, responsive, multi-media player.
+		Google released the same day on the market in more than one million downloads in the times.
+		【AFu player】 supports local video, local music, online video, online music smooth playback.
+		Allows you to swim in the multimedia world, so you forget.
+		The software consists of Yang Guangfu (self: Fu) the use of spare time, free for everyone to use,
+		Please enjoy the 【AFu Player】 smooth playback experience brought it!
+																	\n\n\n
+		
+		
+		&#160;&#160;&#160;&#160;&#160;&#160;【Support system version】\n\n
+		1、Perfect support android1.6, android2.0, android2.01, android2.1 platform \n
+		2、The perfect support for 320 × 480,480 × 800,480 × 854 and other resolutions (Automatic Identification screen resolution);\n
+		3、Support for online audio and video playback, support calls from the browser【AFu Player】 play online audio and video;\n
+		4 、Automatically converted to horizontal screen play, to provide users a better viewing experience;\n
+		5、Beautify the video playlist and operating instructions interface.\n\n\n
+	
+		&#160;&#160;&#160;&#160;&#160;&#160;【Help】\n\n
+		1、Login: screen click on the shield icon in the player, will enter the main interface; six buttons on the main interface,
+			An icon button in the upper left corner there is a version information.\n
+		2、The main interface: six buttons, respectively [playlist], [player interface], [Settings], [Help], [see Kazakhstan Author], [out].\n
+		3、 【Play list】: click to enter the play list interface, which in the playlist can choose your favorite video files, you can return to the main interface.\n
+		4、【Player interface】：Click to enter the player interface, this interface can return to the main interface which, previous, play,
+			Next, there are tuning (press to mute, in the press and vice versa), exit, and the list (you can enter the play list) and other button.\n
+		5、【Set】:Click to enter setup interface, you can set the button to turn audio, set the language and so on.\n
+		6、【Help】：Click to enter for use interface, to look you can see most of the information using the software operation.\n
+		7、【Look of Author】：Click to get to the view of Kazakhstan, you can see the true face of this software, you can make friends, and of cooperation and investment.\n
+		8、【Exit】：Click to exit the software, please next time use.\n\n\n
+		
+		&#160;&#160;&#160;&#160;&#160;&#160;【Play interface operation】\n\n
+		Note: If you use video online play, you will find some features not working,
+			  This is not a software problem, but I designed that way. Online Play button is valid when: tuning out the two buttons; but Chang shielding events or normal.\n
+		1、Full screen switch：\t Double-click the screen, double-click again in exchange for the original\n
+		2、Play/Pause: \t Press the screen/and then a long press or press the play/pause.\n
+		3、Tune/mute: \t Press the button to mute the mixer, on the contrary the opposite.\n
+		4、Play list: \t click the list button, put your phone \t\t all the videos listed for your selection, click Select select the file, will be played.\n
+		5、Previous videos: \t click on a button, will play on a video file.\n
+		6、Next Video: \t click the next button to play the next video file.\n\
+		7、Home: \t click the Home button, then return home.\n
+		8、Exit: \t click the Exit button, the dialog box will pop up, asking whether the exit, follow the prompts whether to exit.\n\n\n
+		
+		&#160;&#160;&#160;&#160;&#160;&#160;【Internet Introduction】\n\n
+		1、AFu Player - Baidu Encyclopedia:\thttp://baike.baidu.com/view/4229955.html\n
+		2、AFu Technology blog:\thttp://yangguangfu.iteye.com\n\n\n
+		3、Download:\thttp://www.eoemarket.com/apps/9348\n\n\n
+		&#160;&#160;&#160;&#160;&#160;&#160;【Statement】\n\n
+		
+		Disclaimer: The software interface material used material from the network and friends are the changes, if violation of your legal rights
+        If you find your work and have identical or copy please contact me. Please contact me, I will promptly replaced.
+		\n\nThank you for your use!\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【Welcome to e-mail contact】\n\n
+		Mail a：email:\t\t\t545609168@qq.com\n
+		
+		1、If you are a national political figures, to e-mail when the do not say, I was afraid this man officer.\n
+		2、If you are the boss, hehe, I like it, you want me to do? Let us talk about.\n
+		3、If you want to exchange technology, hee hee, mutual progress has been my pursuit.\n
+		4、If you are right I made the design and function for up to 200 words of the suggestions or comments,
+		   Have the opportunity to get my first version of the source code, I will send to your mailbox.\n
+		5、If you recommend one of your friends, thanks for your support.
+		   This year you make a fortune; 10 if you recommend to your friends, this life you make a fortune (in fact, thank you for your support and make a fortune or by the efforts.)
+
+		\n\n
+		</string>
+	
+	
+	<string name="author_body">
+		\n
+		&#160;&#160;&#160;&#160;&#160;&#160;
+		First thanks you to arrive at this contact surface, this explained that you want to look at me .
+		For does not let you be disappointed, I can not but write humorously both me and have the content .	But is really difficult to gather the numerous mouths 
+		Therefore I took office the temper to come, did not mind .\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【I and my hometown】\n\n
+		I from some place, here have Shan Youshui, the air am neat, is a natural oxygen; The famous name wine are not many, but has Maotai;
+		Revolutionary transition, Zunyi Conference; First under heaven waterfall, Huangguoshu waterfall. The world first natural stone arch bridges, Liping natural bridge and so on. 
+		What is that some he called? - - - - Guizhou. (if you guess and me are the same, proved that your geography accomplishment is also good; 
+		uesses not rightly, also does not have the relations, multi-understandings good. ) My hometown calls Liping. If wish understanding Dong minority culture, Must go one of places is known as the first under heaven Dong township - - Liping Dong township.
+		
+		
+		
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【I and my endeavor】\n\n
+		1st,  thought personally, the life life and death nature, the life is short, each people were finished, but was finished whether some people to remember itself. 
+		After order to die leaves a good name, we flow the nosebleed to diligently, this is the first reason diligently .\n
+		2nd, the first reason is insufficient to constitute the reason diligently, the reason that actually, we diligently, Is actually wants to live oneself has the dignity.
+	    A while ago heated always in accepts "Time Weekly" Interview time said: “we (refer to government) to make best effort to let all Chinese live have the dignity”. \n
+		3rd, the second reason diligently is not direct, actually we are to live have the face, does not bear to the parents, Has the face in front of the relatives and friends. 
+		The above three reasons, are the fountainheads which our humanity struggles, Has the different view to be possible to send the mail (under to have to send mail function) to exchange, also lets me study study.\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【I and my ideal】\n\n
+		1st, I most want to realize my life value - - not to want to idly spend this to live. Most wants to realize the dream has own company (and friend opens that also to calculate).
+	    2nd, I most want to be engaged in the occupation is: IT management, or company Gao Guan.
+	    3rd, if has with my similar dream friend, may consider, we start an undertaking together, the premise will be you disburses money (certainly I to press my family belongings), I will strive.\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【I and my special skill】\n\n
+		1、Super fast learning speed (in assuring morpheus fully). \n
+		2、I would brag, can and different age people chat, communication effect is better than negotiators; \n
+		3、The an ever channel countless young "like" into "impulse", how many achievements charming story. \n
+		4、The an university did as a salesman, promote sales. His rent bicycle, from 6 to 30 cars, car development also calculate when a boss anyway.\n
+		 But because hanged division was forced to sale at an end, and this serves to illustrate that I always work with one heart and one mind do a thing to it. 
+			
+			
+		
+		
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【If you are some boss】\n\n
+		1st, if you want the android technical support, contacts with me. \n
+		2nd, if you want the IT administrative personnels, is called me, although is not very familiar, but the road is not far; 
+		But also has at least has instructed the personnel who two have not contacted the development (java zero foundation) in 5 month internal energy Does not hand over any expense to be able to realize the employment, and could find 5K the work, how fast study ability did I mainly train them am. \n
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		
+		【If you are and I with the dream friend】\n\n
+		1st, multi-exchanges, sometimes in exchange impulsion middle school to many things. \n
+		2nd, we, win over the cutting edge who diligently makes the time. \n
+		3rd, the suggestion do not be too tired, the body is important, I knew that you are very tired, because I also rush for the dream involve, but is happy. 
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【If you are my schoolmate】\n\n
+		1st, saw after my software, telephones to me, I think you very much actually, is only too busy, after or trades the number, your name list vanished. \n
+		2nd, actually I daily online, but the stealth, is engaged in “the underground work”. \n
+		3rd, if you have married, remembered that tells me one, even if I could not come, but the gift was certain. \n
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【If you are my family member】\n\n
+		1st, daddy, mother you were laborious. \n
+		2nd, elder brother elder sister well you[guizudao mattress ]http://www.guizudao.com/推向全国。\n
+		3rd, if you are my nephew niece niece, grows in a big hurry, the uncle, uncle leads you to look at Tiananmen. \n
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【Welcome you to come the mail】\n\n
+		1st, if you are the national main points of administration, comes the mail time let alone, my this person fears the official very much surely. \n
+		2nd, if you are boss, hee hee, I do like, what wanting me to help you to make? Said first. \n
+		3rd, if you are must exchange the technology, hee hee, progresses has been my pursue mutually. \n
+		4th, if you have published to my design and the function are 200 characters the suggestions or the commentary, Has the opportunity to obtain the my first edition the source code, I will send to your mailbox. \n
+		5th, if you recommend to yours 1 friend, thanks your support. This year you get rich; If you recommend to yours 10 friends, this for a lifetime you get rich (actually thank your support, gets rich or depends diligently). 
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		</string>
+	
+	
+		
+		<string name="version_information_head">
+		\n
+		Edition number ：\tv2.0\n
+		Version given name ：\t himself \n
+		Edition ：\tThe second edition \n
+		Author ：\tCalling self ：AFu(Guangfu Yang)\n
+		Special skill ：\tThe contact surface is gorgeous ，Responds agilely ...\n
+		QQ group：63932554
+		</string>
+		
+	<string
+		name="information_copyright">©2011 Guangfu.</string>
+		
+		
+		 
+	
+
+
+
+	
+		
+
+</resources>

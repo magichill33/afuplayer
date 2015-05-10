@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.yangguangfu.videoplayer" android:versionCode="3"
+	android:versionName="1.3">
+	<application android:icon="@drawable/software_icons"
+		android:label="@string/app_name" 
+		android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+		<activity android:name=".LoginActivity"
+			android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|locale">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".MainMenuActivity"
+			android:launchMode="singleTask" android:clearTaskOnLaunch="true"
+			android:excludeFromRecents="true" android:screenOrientation="landscape"
+			android:configChanges="keyboardHidden|orientation|locale"
+			android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+
+		</activity>
+
+		<activity android:name=".VersionInfoActivity"
+			android:screenOrientation="landscape" android:configChanges="locale">
+		</activity>
+
+		<activity android:name=".util.SetupActivity" android:theme="@style/transActivity"
+			android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|locale">
+		</activity>
+
+		<activity android:name=".VideoPlayerActivity"
+			android:configChanges="keyboardHidden|orientation|locale|navigation"
+			android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<data android:mimeType="video/*" android:scheme="http" />
+				<data android:mimeType="video/*" android:scheme="file" />
+				<data android:mimeType="audio/*" android:scheme="http" />
+				<data android:mimeType="audio/*" android:scheme="file" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			
+			
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="rtsp" />
+				<data android:mimeType="video/*" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="rtsp" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="http" />
+				<data android:mimeType="video/*" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="video/*" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:scheme="file" />
+				<data android:mimeType="video/*" />
+			</intent-filter>
+			
+
+
+		</activity>
+
+
+		<activity android:name="com.yangguangfu.videoplayer.playlist.PlayListsActivity"
+
+			android:theme="@style/transActivity" android:configChanges="keyboardHidden|orientation|locale" />
+
+		<activity android:name=".AuthorActivity"
+			android:screenOrientation="landscape" android:configChanges="locale">
+		</activity>
+
+		<activity android:name=".HelpActivity"
+			android:screenOrientation="landscape" android:configChanges="locale">
+		</activity>
+
+		<activity android:name=".contact.SendEmailAdvice"
+			android:screenOrientation="landscape" android:configChanges="locale">
+		</activity>
+
+		<activity android:name=".contact.SendEmailFriend"
+			android:screenOrientation="landscape" android:configChanges="locale">
+		</activity>
+
+
+		<activity android:name=".contact.SendEmailAuthor"
+			android:screenOrientation="landscape" android:configChanges="locale">
+		</activity>
+
+		<activity android:name="com.waps.OffersWebView"
+			android:configChanges="keyboardHidden|orientation" />
+		<!--以下属性为应用ID,从万普后台获取-->
+		<meta-data android:name="WAPS_ID" android:value="325cf2f3445570361e9a168b72ec4a6a" />
+		<!--以下属性为分发渠道ID,编码表参见本文档末附表-->
+		<meta-data android:name="WAPS_PID" android:value="WAPS" />
+
+
+
+	</application>
+
+	<uses-sdk android:minSdkVersion="3" android:targetSdkVersion="7"
+		android:maxSdkVersion="12" />
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.READ_SMS" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<!--以下两个权限为可选项，用于支持特殊广告形式-->
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	<uses-permission
+		android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+
+
+	<!--
+		允许程序重新启动其他程序 <uses-permission
+		android:name="android.permission.RESTART_PACKAGES" />
+	-->
+
+</manifest> 

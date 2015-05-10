@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="10">
+		<TextView android:id="@+id/sendathor_email_title"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/sendathor_email_title" android:textSize="24dip"
+			android:textColor="@drawable/red" android:layout_marginLeft="120px" />
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1">
+		<!-- 这是左边的那块 -->
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_weight="1">
+
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+				<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+					<TableLayout android:layout_width="fill_parent"
+						android:layout_height="wrap_content" android:layout_marginLeft="20.0px"
+						android:layout_marginRight="20.0px" android:layout_marginTop="1.0px">
+						<TableRow>
+							<LinearLayout android:orientation="horizontal"
+								android:layout_width="fill_parent" android:layout_height="fill_parent">
+								<TextView android:layout_width="50dip"
+									android:layout_height="30px" android:textColor="@drawable/red"
+									android:text="@string/sendathor_receiver" android:textSize="12sp" />
+								<EditText android:id="@+id/sendathor_receiver"
+									android:layout_width="200dip" android:layout_height="wrap_content"
+									android:text="545609168@qq.com" android:layout_marginLeft="25px" />
+							</LinearLayout>
+						</TableRow>
+						<TableRow>
+							<LinearLayout android:orientation="horizontal"
+								android:layout_width="fill_parent" android:layout_height="fill_parent">
+								<TextView android:layout_width="50dip"
+									android:layout_height="30px" android:text="@string/sendatho_email_theme"
+									android:textColor="@drawable/red" android:textSize="12sp" />
+								<Spinner android:id="@+id/sendathor_timeoutSpinner"
+									android:layout_width="204dip" android:layout_height="wrap_content"
+									android:textColor="@drawable/red" android:entries="@+array/sendathor_timeoutSpinner"
+									android:layout_marginLeft="25px" android:layout_centerInParent="true" />
+
+							</LinearLayout>
+						</TableRow>
+						<!--内容 -->
+						<TableRow>
+							<LinearLayout android:orientation="horizontal"
+								android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+								<TextView android:layout_width="50dip"
+									android:layout_height="30px" android:textColor="@drawable/red"
+									android:text="@string/send_email_content" android:textSize="12sp" />
+								<EditText android:id="@+id/sendathor_editText_content"
+									android:layout_width="204dip" android:layout_height="120dip"
+									android:text="@string/sendathor_emailcontent"
+									android:layout_marginLeft="25px" />
+							</LinearLayout>
+
+						</TableRow>
+						<TableRow>
+							<LinearLayout android:orientation="horizontal"
+								android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+								<TextView android:id="@+id/sendathor_TextView_appraise"
+									android:layout_width="50dip" android:layout_height="30px"
+									android:textColor="@drawable/red" android:text="@string/sendathor_advice_appraise"
+									android:layout_marginTop="10dip" android:textSize="12sp" />
+								<RadioGroup android:id="@+id/sendathor_radioGroup"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"
+									android:orientation="horizontal" android:textColor="@drawable/red">
+									<RadioButton android:id="@+id/sendathor_mark_friend_rad"
+										android:layout_width="wrap_content" android:layout_height="wrap_content"
+										android:textColor="@drawable/red" android:text="@string/sendathor_mark_friend_rad"
+										android:textSize="11sp" />
+									<RadioButton android:id="@+id/sendathor_give_code"
+										android:layout_width="wrap_content" android:layout_height="wrap_content"
+										android:textColor="@drawable/red" android:text="@string/sendathor_give_code"
+										android:textSize="11sp" />
+									<RadioButton android:id="@+id/sendathor_see_you"
+										android:layout_width="wrap_content" android:layout_height="wrap_content"
+										android:textColor="@drawable/red" android:text="@string/sendathor_see_you"
+										android:textSize="11sp" />
+								</RadioGroup>
+							</LinearLayout>
+						</TableRow>
+
+					</TableLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+
+
+		<!-- 右边的那块 -->
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_weight="2">
+
+			<Button android:id="@+id/sendathor_email_button"
+				android:layout_width="100dip" android:layout_height="wrap_content"
+				android:textSize="15sp" android:textColor="#FFFFFFFF"
+				android:background="@drawable/small_button_bg1" android:text="@string/sendathor_email_button"
+				android:layout_marginTop="100dip" />
+			<Button android:id="@+id/sendathor_email_back"
+				android:layout_width="100dip" android:layout_height="wrap_content"
+				android:textSize="15sp" android:textColor="#FFFFFFFF"
+				android:background="@drawable/small_button_bg1" android:text="@string/sendathor_email_back"
+				android:layout_marginTop="10dip" />
+		</LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>
+
+
+
+
+

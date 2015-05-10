@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:id="@+id/layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_marginTop="13dip"
+		android:layout_marginLeft="20dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bg_help_box">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="39dip"
+			android:layout_marginTop="10dip"
+			android:gravity="center"
+			android:text="@string/informationHead"
+			android:textColor="#FFFFFFFF" />
+		<ScrollView
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="40dip"
+			android:layout_width="380dip"
+			android:layout_height="182dip"
+			android:gravity="center">
+			
+				
+					<LinearLayout
+					
+					android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="37dip"
+						android:layout_marginTop="5dip"
+						android:src="@drawable/logo_mainview">
+						</ImageView>
+						<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textStyle="bold"
+						android:text="@string/version_information_head"
+						android:textColor="#FFFFFFFF" />
+						
+					</LinearLayout>
+					
+			
+		</ScrollView>
+		<TextView
+			android:layout_marginTop="5dip"
+			android:layout_marginLeft="80dip"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/version_info_bottom"
+			android:textColor="#FF0000" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_marginTop="5dip"
+		android:layout_marginLeft="20dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button
+		    android:id="@+id/gomainmenu"
+			android:layout_width="93dip"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFFFF"
+			android:textSize="15sp"
+			android:background="@drawable/small_button_bg1"
+			android:layout_marginLeft="22dip"
+			android:layout_marginTop="5dip"
+			android:text="@string/auhor_back">
+		</Button>
+		<TextView
+			android:layout_width="115dip"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFFFF"
+			android:textSize="15sp"
+			android:textStyle="normal"
+			android:layout_marginLeft="44dip"
+			android:layout_marginTop="5dip"
+			android:text="@string/information_copyright">
+		</TextView>
+		<Button
+		    android:id="@+id/infomation_sendfriend"
+			android:layout_width="93dip"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFFFF"
+			android:textSize="15sp"
+			android:background="@drawable/small_button_bg1"
+			android:layout_marginLeft="22dip"
+			android:layout_marginTop="5dip"
+			android:text="@string/infomation_send_friend">
+		</Button>
+
+	</LinearLayout>
+</LinearLayout>

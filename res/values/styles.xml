@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<style
+		name="mainmenu_button"
+		>
+		<item
+			name="android:layout_width">wrap_content</item>
+		<item
+			name="android:layout_height">wrap_content</item>
+		<item
+			name="android:background">@drawable/bigbutton</item>
+		<item
+			name="android:layout_marginLeft">70dip</item>
+		<item
+			name="android:layout_marginTop">10dip</item>
+		<item
+			name="android:textColor">#FFFFFF</item>
+		<item
+			name="android:textStyle">bold</item>
+		<item
+			name="android:textSize">18sp</item>
+		<item
+			name="android:gravity">center</item>
+	</style>
+	
+	<style
+		name="options_button"
+		>
+		<item
+			name="android:layout_width">wrap_content</item>
+		<item
+			name="android:layout_height">wrap_content</item>
+		<item
+			name="android:background">@drawable/bigbutton</item>
+		<item
+			name="android:layout_marginLeft">220dip</item>
+		<item
+			name="android:layout_marginTop">10dip</item>
+		<item
+			name="android:textColor">#FFFFFF</item>
+		<item
+			name="android:textStyle">bold</item>
+		<item
+			name="android:textSize">18sp</item>
+		<item
+			name="android:gravity">center</item>
+	</style>
+	
+	<style	name = "transDialog" parent = "android:Theme.Dialog">
+		<item name = "android:windowBackground">
+			@color/dialog_back 
+		</item>
+	</style>
+	
+	<style	name = "transActivity" parent = "android:Theme.Translucent.NoTitleBar">
+		<item name = "android:windowBackground">
+			@color/dialog_back 
+		</item>
+	</style>
+	
+	
+	<style
+		name="play_lists_back"
+		>
+		<item
+			name="android:layout_width">wrap_content</item>
+		<item
+			name="android:layout_height">wrap_content</item>
+		<item
+			name="android:background">@drawable/bigbutton</item>
+		<item
+			name="android:layout_marginLeft">320dip</item>
+		<item
+			name="android:layout_marginTop">10dip</item>
+		<item
+			name="android:textColor">#FFFFFF</item>
+		<item
+			name="android:textStyle">bold</item>
+		<item
+			name="android:textSize">18sp</item>
+		<item
+			name="android:gravity">center</item>
+	</style>
+	
+	
+	<style
+		name="play_controler"
+		>
+		<item
+			name="android:layout_width">wrap_content</item>
+		<item
+			name="android:layout_height">wrap_content</item>
+		<item
+			name="android:background">@drawable/small_button</item>
+		
+		<item
+			name="android:layout_marginTop">1dip</item>
+		<item
+			name="android:textColor">#FFFFFF</item>
+		<item
+			name="android:textStyle">bold</item>
+		<item
+			name="android:textSize">18sp</item>
+		<item
+			name="android:gravity">center</item>
+	</style>
+
+</resources>

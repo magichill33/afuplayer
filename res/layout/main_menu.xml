@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_margin="7dip"
+		android:id="@+id/mainmenu_information" android:src="@drawable/informationhelp" />
+	<!-- 中间的菜单 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+			<Button style="@style/mainmenu_button" android:id="@+id/mainmenu_playlist"
+				android:text="@string/mainmenu_play" />
+
+
+			<Button style="@style/mainmenu_button" android:id="@+id/mainmenu_help"
+				android:text="@string/mainmenu_scores" />
+
+			<Button style="@style/mainmenu_button" android:id="@+id/mainmenu_set"
+				android:text="@string/mainmenu_options" />
+
+			<Button style="@style/mainmenu_button" android:id="@+id/mainmenu_about_author" 
+				android:text="@string/mainmenu_facebook_fan_us" />
+
+			<Button style="@style/mainmenu_button" android:id="@+id/mainmenu_about_software"
+				android:text="@string/mainmenu_multiplay" />
+
+
+			<Button style="@style/mainmenu_button" android:id="@+id/mainmenu_exit_player"
+				android:text="@string/mainmenu_exit" />
+		</LinearLayout>
+
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginLeft="35dip"
+			android:layout_marginTop="35dip" android:src="@drawable/main_menu" />
+
+	</LinearLayout>
+
+
+
+
+</LinearLayout>
+	

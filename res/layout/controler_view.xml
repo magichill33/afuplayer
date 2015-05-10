@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center">
+
+	<LinearLayout android:id="@+id/mSeekBar"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="center_horizontal"
+		android:layout_weight="0">
+
+		<TextView android:layout_width="30.0dip" android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical" />
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center_horizontal" android:layout_weight="0">
+			<TextView android:id="@+id/has_played" android:background="@drawable/gray"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" android:text="00:00" />
+
+
+			<SeekBar android:id="@+id/seekbar" android:layout_width="250dip"
+				android:layout_height="26.0dip" android:paddingLeft="3dip"
+				android:paddingRight="3dip" 
+				android:progressDrawable="@layout/seekbar_style"
+				style="?android:attr/progressBarStyleHorizontal" />
+
+			<TextView android:id="@+id/duration" android:background="@drawable/gray"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" android:text="00:00" />
+		</LinearLayout>
+
+		<TextView android:layout_width="25.0dip" android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical" />
+	</LinearLayout>
+	<TextView 
+	    android:id="@+id/mTextView"
+	    android:layout_below="@id/mSeekBar"
+		android:layout_width="wrap_content"
+		android:layout_height="15.0dip" 
+		android:layout_gravity="center_vertical" />
+
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_weight="0" 
+		android:layout_below="@id/mTextView"
+		android:background="@drawable/bg_top"
+		android:gravity="center">
+
+		<Button android:id="@+id/control_goto_menu" style="@style/play_controler"
+			android:text="@string/control_menu" />
+
+		<Button android:id="@+id/control_previous" style="@style/play_controler"
+			android:text="@string/control_previous" />
+
+
+		<Button android:id="@+id/control_play_state" style="@style/play_controler"
+			android:text="@string/control_play_state" />
+
+		<Button android:id="@+id/control_next" style="@style/play_controler"
+			android:text="@string/control_next" />
+
+		<Button android:id="@+id/control_goto_play_lists" style="@style/play_controler"
+			android:text="@string/control_play_lists" />
+
+
+		<Button android:id="@+id/controler_exit" style="@style/play_controler"
+			android:text="@string/controler_exit" />
+
+		<Button android:id="@+id/control_sound_control" style="@style/play_controler"
+			android:text="@string/control_soundControl" />
+
+	</LinearLayout>
+
+
+</RelativeLayout>

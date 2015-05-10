@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg">
+	<TextView android:id="@+id/playListView" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		android:visibility="gone" 
+		android:gravity="center" 
+		android:textColor="#FFFFFF"
+		android:textSize="24px" 
+		android:text="@string/no_vide_file" />
+	<ListView android:id="@+id/list" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+</RelativeLayout>
+
+

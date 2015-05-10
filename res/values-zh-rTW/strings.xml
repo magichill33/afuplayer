@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">阿福播放器</string>
+	<string name="send_email_author">歡迎您給作者建議</string>
+	<string name="receiver">收件人</string>
+	<string name="send_email_theme">主題</string>
+	<string name="send_email_content">內容</string>
+	<string name="emailcontent">衷心的感謝您對我的支持</string>
+	<string name="advice_send_button">發送郵件</string>
+	<string name="advice_return_button">返回按鈕</string>
+	<string name="no_vide_file">沒有視頻文件</string>
+
+
+	<string-array name="advice_timeout_labels">
+		<item>【阿福播放器】：性能優異</item>
+		<item>【阿福播放器】：界面華麗</item>
+		<item>【阿福播放器】：功能強大</item>
+		<item>【阿福播放器】：界面一般</item>
+		<item>【阿福播放器】：功能一般</item>
+		<item>【阿福播放器】：不怎么样</item>
+	</string-array>
+
+	<string name="advice_str_message">感謝您的回信！</string>
+	<string name="advice_appraise">評價:</string>
+	<string name="advice_verygood">非常好</string>
+	<string name="advice_good">好</string>
+	<string name="advice_general">一般</string>
+
+	<string name="advice_email_addr">郵件地址不能為空</string>
+	<string name="advice_email_Subject">郵件主題為空</string>
+	<string name="advice_email_content">郵件內容為空</string>
+	<string name="advice_email_comment">您還沒評論呢</string>
+	<string name="advice_user_comment">【用戶評價】：</string>
+	<string name="advice_user_content"> ；\n【內容】： </string>
+
+
+	<string name="mainmenu_play">播放列表</string>
+	<string name="mainmenu_multiplay">關于軟件</string>
+	<string name="mainmenu_options">設置</string>
+	<string name="mainmenu_scores">使用說明</string>
+	<string name="mainmenu_facebook_fan_us">看哈作者</string>
+	<string name="mainmenu_exit">退出</string>
+	<string name="author_music_pause">暂停</string>
+	<string name="author_music_play">播放</string>
+
+	<string name="options_title_trandition_chinese">設置</string>
+	<string name="language_trandition_chinese">語言</string>
+	<string name="options_music_trandition_chinese">背景音樂</string>
+	<string name="options_sound_trandition_chinese">按鈕聲音</string>
+	<string name="options_on">開&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+	</string>
+	<string name="options_on_trandition_chinese">開&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+	</string>
+	<string name="options_off">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;關
+	</string>
+	<string name="options_off_trandition_chinese">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;關
+	</string>
+	<string name="options_sure">確定</string>
+	<string name="options_sure_trandition_chinese">確定</string>
+	<string name="options_hint_msg">按確定設置才生效哦 </string>
+	<string name="play_lists_back">返回</string>
+
+
+	<string name="control_previous">上一個</string>
+	<string name="control_next">下一個</string>
+	<string name="control_play_state">播放</string>
+	<string name="control_pause_state">暫停</string>
+	<string name="control_menu">主頁</string>
+	<string name="control_soundControl">調音</string>
+	<string name="control_soundControl_mute">靜音</string>
+	<string name="controler_exit">退出</string>
+	<string name="control_play_lists">列表</string>
+
+
+	<string name="app_isExit_title">提示</string>
+	<string name="app_isExit_no">取消</string>
+	<string name="app_isExit_yes">確定</string>
+	<string name="app_isExit_msg">您是否要退出阿福播放器？ </string>
+
+	<string name="last_video_msg">已經是最後一個視頻了 </string>
+	<string name="front_video_msg">已經是第一個視頻了 </string>
+
+	<string name="error_video_msg_title">對不起 </string>
+	<string name="error_video_msg">您播放的視頻格式不正確，或網絡環境不好！ </string>
+	<string name="error_video_sure">知道了 </string>
+	<string name="error_video_learn">去了解 </string>
+	<string name="app_hint_msg">請您按屏幕上的按鈕！</string>
+
+
+	<string name="auhor_suggest">我的作品</string>
+	<string name="auhor_back">返回</string>
+	<string name="author_informationHead">作者簡介</string>
+	<string name="author_contact_info">我來自美麗貴州黎平 \n
+		黎平侗鄉
+	</string>
+
+	<string name="help_titl">使用說明</string>
+	<string name="help_suggest">意見反饋</string>
+	<string name="help_back">返回</string>
+	<string name="help_contact_info">哈哈，看了說明，操作更簡單。</string>
+
+	<string name="author_head">
+		自稱：\t阿福\n
+		姓名：\t楊光福\n
+		性別：\t公的\n
+		哪的：\t貴州黎平\n
+		職業：\t軟件工程師\n
+		特長：\tjava、android...\n
+		愛好：\t人民幣\n\</string>
+
+	<string name="author_body">
+		\n
+		&#160;&#160;&#160;&#160;&#160;&#160;
+		首先感謝你來到這個介面，這說明你還是想看哈我。
+		爲了不讓你失望，我不得不把自己寫的既幽默又有內容。
+		但實在是難合從口
+		於是乎我就任著性子來了，不介意吧(*^__^*) 。\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【我和我的家鄉】\n\n
+		我來自某地，那裡山美水美，人更美，空氣清新，是個天然氧吧；名酒不多，但有茅臺；
+		革命轉折，遵義會議；天下大瀑布，黃果樹不鋪。
+		世界第一天然石拱橋，麗萍天生橋。
+		這某地他叫什麽呢？————貴州。（如果你猜的和我一樣，證明你地理很有素養；
+		猜不對，也沒關係，下面我帶你去瞭解瞭解。）
+		我的家鄉叫黎平。如果想要瞭解侗鄉文化的話，
+		必去的地方之一就是號稱天下第一侗鄉——黎平侗鄉。
+
+
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【我和我的努力】\n\n
+		1、個人覺得，人生生死自然，生命短暫，每個人都完蛋，但完蛋是否會有人記得住自己。
+		爲了死後留名，我們就算流著鼻血都要努力，這是奴隸的第一理由。\n
+		2、第一個理由不注意構成去努力的理由，其實啊，我們之所以努力，
+		其實是想讓自己活得有尊嚴。前段時間溫總理接受《時代週刊》
+		來訪的時候就說：“我們（指政府）徑最大努力讓所有的中國人活得有尊嚴”。\n
+		3、第二個理由不直接，其實我們是爲了獲得有面子，
+		在親朋好友面前有面子。以上三個理由，是我們人類奮鬥的源泉，
+		有不同看法的可以發郵件（下面有個發郵件）交流交流，也讓俺學學。\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【我和我的理想】\n\n
+		1、我最想實現自己人生呢個價值的是——不想虛度此生。最想實現夢想的是擁有自己的公司（和朋友開那也算）。
+		2、我最想從事的職業：IT管理，或者公司高管。
+		3、如果有和我同樣夢想的朋友，可以好綠哈，我們一起創業，前提是你出錢（當然我會呀上我的家當），我出力。\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+
+		【我和我的特長】\n\n
+		1、超快的學習書讀（在保證充分的水面的情況下）。\n
+		2、和朋友做是希望的是彼此都開心，不想斤斤計較，夠意思吧。\n
+		3、俺會吹牛，能和不同臨界段的人吹牛，溝通效果勝過不同專家；
+
+
+
+
+		4、俺曾經開到過無數的少年“暗戀”變為“衝動”，成就多少話家。\n
+		5、俺大學期間做過業務員，當過推銷。自己出出租自行車，從6量發展到30量，也算當過老闆的人吧。\n
+		但因為掛科被迫甩賣告終 ，這足以說明我總是一心一意做事吧。\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+
+		【如果你是某老板】\n\n
+		1、如果你要android技術支持，聯繫我吧。\n
+		2、如果你要IT管理人員，叫我吧，雖然不是很熟悉，單路不遠了；但至少也有過指導兩個從來沒有接觸開發人員（java零基础）在5個月內
+		不交任何費用就能實現就業，且能找到5K的工作，我主要培養他們的是怎樣快速學習的能力。\n
+		3、如果你學咬人合作，開個公司啊，我可以出力，單節得分我點股份，我會盡我最大力量幫助公司高速發展。
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+
+
+		【如果你是和我同夢想的朋友】\n\n
+		1、多交流吧，有時候在交流的衝動中學到很多東西。\n
+		2、我們都努力吧，爭取做是大的先鋒。\n
+		3、建議不要太勞累，身體要緊，我知道你很累，因為我也為夢想奔波，也很勞累，但幸福。
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+
+		【如果你是我的同學】\n\n
+		1、看到我的軟件后給我打個電話吧，我其實很想你們，只是太忙了，或者換號碼後沒有及時加上你們的號碼。\n
+		2、其實我天天在線，但隱身，從事“地下工作”。\n
+		3、如果你們結婚了，記得告訴我一聲，即使我來不了，但禮物一定到。\n
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+
+		【如果你是我的家人】\n\n
+		1、爸爸，媽媽你們辛苦了。\n
+		2、哥哥姐姐好好把你們的【贵族岛床垫】http://www.guizudao.com/推向全國。\n
+		3、如果你是我的侄子侄女外甥女，那就快快成長，舅舅，叔叔帶你們看天安門。\n
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+
+		【歡迎您來郵件】\n\n
+		1、如果你是国家政要，來郵件時候千萬別說，我這人很怕官。\n
+		2、如果你是老板，嘻嘻，我喜歡，要我幫你什麽呢？先說說。\n
+		3、如果你是要交流技術，嘻嘻，相互進步一直是我的原則。\n
+		4、如果你对我的設計及功能發表長達200子的建議或評價，
+		都有機會獲得我的第一版本的源代碼，我會發到你的郵件。\n
+		5、如果你推薦给你的1个朋友，謝謝你的支持。
+		今年你發財；如果你推薦給10个朋友，這輩子你發財（其实是谢谢你的支持，发财还是靠努力的）。
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160; </string>
+
+
+	<string name="help_information">
+		&#160;&#160;&#160;&#160;&#160;&#160;【阿福播放器】是android操作系統上一款潔面超級絢麗，
+		靈巧便捷、組織協調、設計人性化、響應敏捷的多媒體播放器。
+		發佈當天就在google市場啥關上下載百萬億次。
+		【阿福播放器】支持本地視頻、本地音樂、網絡視頻、網絡音樂的流暢播放。
+		讓你們暢遊在多媒體的世界里，讓你流連往返。
+		本軟件由杨光福（自称：阿福）利用業餘時間開發，免費給大家使用，
+		請大家盡情享受【阿福播放器】所帶來的暢流播放体验吧！\n\n\n
+
+
+		&#160;&#160;&#160;&#160;&#160;&#160;【支持系版本】\n\n
+		1、完美支持android1.6、android2.0、android2.01、 android2.1、android2.2、android2.3平台\n
+		2、完美支持320×480、480×800、480×854等個分辨率（自動識別品目分辨率）;\n
+		3、支持在線音頻、視頻播放，支持從瀏覽器中播放【阿福播放器】播放在線音頻、視頻；\n
+		4、自動幻化為橫拼搏放，為用戶提供更好的觀看體驗；\n
+		5、美化了視頻播放列表和caozuoshuoming。\n\n\n
+
+		&#160;&#160;&#160;&#160;&#160;&#160;【使用说明】\n\n
+		1、登陸：在屏幕点击本播放器图标，將進入主界面；主界面上有六个按钮，
+		一个图标，左上角還有一個信息按鈕。\n
+		2、主界面：六个按鈕分別爲[播放列表]、[播放界面]、[设置]、[使用說明]、[看哈作者]、[退出]。\n
+		3、【播放列表】：單擊將進入播放列表界面，在播放列表裏面可以選擇你喜歡的視頻文件，也可以返回主界面。\n
+		4、【播放界面】：單擊将进入播放界面，這界面里可以返回主界面，上一个，播放，
+		下一个，還有調音（長安為靜音，在長安反之），退出，列表(可以进入播放列表)等按鈕。\n
+		5、【设置】:單擊進入設置界面，可以設置按鈕是否開區聲音，語言設置等等。\n
+		6、【使用說明】：單擊將進入使用說明界面就可以看到實用軟件操作的大部份信息。\n
+		7、【看哈作者】：單擊将進入使用看哈作者，就可以看到本軟件作者的真面目，還可以和作者交朋友、合作、投資等。\n
+		8、【退出】：單擊將推出該軟件，歡迎下次使用。\n\n\n
+
+		&#160;&#160;&#160;&#160;&#160;&#160;【播放界面操作】\n\n
+		說明：如果你用視頻在線播放，你會發現有些功能用不上了，
+		這不是軟件的問題，而是我設計這樣。在線播放的時候有效的按鈕時：調音、退出這兩個按鈕；按長按屏幕事件還是正常。\n
+		1、全屏切換：\t雙擊屏幕，再次雙擊換回原來。\n
+		2、播放/暫停：\t長按屏幕/再長按或按播放/暂停。\n
+		3、調音/靜音：\t長按靜音按鈕為靜音，反之為調音。\n
+		4、播放列表：\t單擊列表按鈕，便把你手機的\t\t所有視頻列出來，供你選擇，單擊選擇選擇文件，將進行播放。\n
+		5、上一視頻：\t單機上一個按鈕，將播放上一個視頻文件。\n
+		6、下一個視頻：\t單擊下一個按鈕，將播放下一個視頻文件。\n\
+		7、返回主頁：\t單擊主頁按鈕，便返回主頁按鈕。\n
+		8、退出：\t單擊退出按鈕，將彈出退出對話框，詢問是否退出，根據提示操作是否退出。\n\n\n
+
+		&#160;&#160;&#160;&#160;&#160;&#160;【網上介紹】\n\n
+		1、阿福播放器—百度百科：\thttp://baike.baidu.com/view/4229955.html\n
+		2、阿福技術博客：\thttp://yangguangfu.iteye.com\n\n\n
+		3、下載地址：\thttp://www.eoemarket.com/apps/9348\n\n\n
+		&#160;&#160;&#160;&#160;&#160;&#160;【聲明】\n\n
+
+		聲明：本軟件所使用的界面材料素材均來自于網絡和朋友的修改，如果侵犯了您的合法權利
+		，如果發現和您的作品有雷同或者抄襲請聯繫我。我會及時更換。
+		\n\n感謝您的使用！\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【歡迎郵件聯繫】\n\n
+		郵件一：email:\t\t\t545609168@qq.com\n
+
+		1、如果你是国家政要，來郵件時候千萬別說，我這人很怕官。\n
+		2、如果你是老板，嘻嘻，我喜歡，要我幫你什麽呢？先說說。\n
+		3、如果你是要交流技術，嘻嘻，相互進步一直是我的原則。\n
+		4、如果你对我的設計及功能發表長達200子的建議或評價，
+		都有機會獲得我的第一版本的源代碼，我會發到你的郵件。\n
+		5、如果你推薦给你的1个朋友，謝謝你的支持。
+		今年你發財；如果你推薦給10个朋友，這輩子你發財（其实是谢谢你的支持，发财还是靠努力的）。
+		\n\n
+		</string>
+
+</resources>

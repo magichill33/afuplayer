@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">阿福播放器</string>
+	<string name="no_vide_file">没有视频文件</string>
+	
+	
+	
+	
+	<string name="list_refresh">视频列表已刷新！</string>
+	<string name="button_ok">确定</string>
+	<string name="button_cancel">取消</string>
+	<string name="sd_shared">请您先退出USB模式,再运行该应用</string>
+	<string name="sd_unmounted">SD卡未加载到手机</string>
+	<string name="sd_removed">此应用需要SD卡才能使用</string>
+	<string name="sd_noinsert">未找到SD卡</string>
+	<string name="duration_tag">影片时长:</string>
+	<array name="items_for_externalCaller">
+		<item>播放</item>
+		<item>添加此视频</item>
+	</array>
+	<string name="file_notexist">这个文件已经不存在</string>
+	<string name="confirm_addvideo">确认要添加此视频吗？</string>
+	<string name="fail_deletefile">删除文件失败</string>
+	<string name="fail_deleterecent">删除列表失败</string>
+	<string name="fail_renamefile">重命名文件失败</string>
+	<string name="fail_renameexist">该文件已存在！</string>
+	<string name="fail_renametoolong">文件名过长，重命名失败！</string>
+	<string name="fail_renameempty">文件名为空，重命名失败！</string>
+	<string name="rename_dialog">重命名</string>
+	<array name="items_for_allVideo">
+		<item>播放</item>
+		<item>重命名</item>
+		<item>删除</item>
+	</array>
+	<string name="confirm_deletefile">确认要删除该文件吗？</string>
+	
+	
+	
+	<string name="sendathor_email_title">与作者交朋友</string>
+	<string name="sendathor_receiver">E-mail</string>
+	<string name="sendatho_email_theme">我是</string>
+	
+	<string-array name="sendathor_timeoutSpinner">
+		<item>我是你的用户</item>
+		<item>我是要源码的</item>
+		<item>我是某投资人</item>
+		<item>我是你的那位</item>
+		<item>我是你的同学</item>
+		<item>我是你的同事</item>
+		<item>我是你的亲戚</item>
+		<item>我是某某</item>
+		<item>我是过客</item>
+	</string-array>
+	 <string name="sendathor_advice_appraise">交友目的:</string>
+	   <string name="sendathor_mark_friend_rad">交友</string>
+	   <string name="sendathor_give_code">要源码</string> 
+	   <string name="sendathor_see_you">合作</string> 
+	    <string name="sendathor_email_button">发送邮件</string>
+	    <string name="sendathor_email_back">返回</string>
+	
+	<string name="sendathor_email_addr">邮件地址不能为空</string>
+	<string name="sendathor_email_Subject">邮件主题不能为空</string>
+	<string name="sendathor_email_content">邮件内容不能为空</string>
+	<string name="sendathor_email_comment">您还没有说目的呢</string>
+	<string name="sendathor_user_comment">【联系目前】：</string>
+	<string name="sendathor_user_content"> ；\n【内容】： </string>
+	<string name="sendathor_emailcontent">要给他说点什么呢</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	<string name="sendfriend_email_top_title">推荐给我的好友</string>
+	<string name="sendfriend_receiver_friend">E-mail</string>
+	<string name="friend_addr">输入好友邮件地址</string>
+	<string name="sendfriend_email_theme">我是</string>
+	
+	<string-array name="sendfriend_email_subject">
+		<item>我是你的那位</item>
+		<item>我是你的朋友</item>
+		<item>我是你的同学</item>
+		<item>我是你的同事</item>
+		<item>我是本软件作者</item>
+		<item>我是你的亲戚</item>
+		<item>我是某某</item>
+		<item>我是过客</item>
+	</string-array>
+	
+	<string name="sendfriend_email_content_title">内容</string>
+	<string name="sendfriend_email_content">\t推荐一款界面超炫的android手机多媒体播放器【阿福播放器】给你,你看看,去这里下载:http://www.eoemarket.com/apps/9348</string>
+	<string name="sendfriend_sendEmial_button">发送邮件</string>
+	<string name="sendfriend_email_summary">总之</string>
+	
+	<string name="sendfriend_email_ok">真棒</string>
+	<string name="sendfriendr_email_verry_ok">真不错</string> 
+	<string name="sendfriend_email_generally">一般</string> 
+	   
+	<string name="sendfriend_email_button">发送邮件</string>
+	<string name="sendfriend_email_back">返回</string>
+	
+	
+	
+	
+	
+	
+	<string name="infomation_str_message">您成功发送给好友！</string>
+	<string name="infomation_send_friend">经典软件</string>
+	
+	
+	
+	
+	
+	
+	
+	<!-- 另外加的，别的string没有到这结束 -->
+	
+	<string name="send_email_author">欢迎您给作者建议</string>
+	<string name="receiver">收件人</string>
+	<string name="send_email_theme">主题</string>
+	<string name="send_email_content">内容</string>
+	<string name="advice_send_emailcontent">\t我非常喜欢这款软件，占用了你的业余时间开发给大家用，你辛苦了。</string>
+	<string name="advice_send_button">发送邮件</string>
+	<string name="advice_return_button">返回按钮</string>
+	
+	<string-array name="advice_timeout_labels">
+		<item>【阿福播放器】：性能优异</item>
+		<item>【阿福播放器】：界面华丽</item>
+		<item>【阿福播放器】：功能强大</item>
+		<item>【阿福播放器】：界面一般</item>
+		<item>【阿福播放器】：功能一般</item>
+	</string-array>
+	
+	<string name="advice_str_message">谢谢您的回信！</string>
+    <string name="advice_appraise">评价:</string>
+    <string name="advice_verygood">非常好</string>
+    <string name="advice_good">好</string> 
+	<string name="advice_general">一般</string> 
+	
+	<string name="advice_email_addr">邮件地址不能为空</string>
+	<string name="advice_email_Subject">邮件主题为空</string>
+	<string name="advice_email_content">邮件内容不能为空</string>
+	<string name="advice_email_comment">您还没有评论呢</string>
+	<string name="advice_user_comment">【用户评价】：</string>
+	<string name="advice_user_content"> ；\n【内容】： </string>
+	
+	
+	
+    <string name="mainmenu_play">播放列表</string>
+    <string name="mainmenu_multiplay">软件推荐</string>
+    <string name="mainmenu_options">设置</string>
+    <string name="mainmenu_scores">使用说明</string>
+    <string name="mainmenu_facebook_fan_us">关于作者</string>
+    <string name="mainmenu_exit">退出</string>
+    
+    
+        
+    <string name="options_title">设置</string>
+    <string name="language_chinese">语言</string>
+    <string name="options_music_chinese">背景音乐</string>
+    <string name="options_sound_chinese">按钮声音</string>
+    <string name="options_on">开&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="options_on_chinese">开&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="options_off">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;关</string>
+    <string name="options_off_chinese">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;关</string>
+    <string	name="options_sure">确定</string>
+    <string	name="options_sure_chinese">确定</string>
+    <string name="options_hint_msg">按确定设置才生效哦</string>
+   
+    
+    <string name="play_lists_back">返回</string>
+    <string name="play_lists_see">常看视频</string>
+   
+   
+    
+    <string name="control_play_lists">列表</string>
+    <string name="control_previous">上一个</string>
+    <string name="control_next">下一个</string>
+    <string name="control_play_state">播放</string>
+    <string name="control_pause_state">暂停</string>
+    <string name="control_menu">主页</string>
+    <string name="control_soundControl">调音</string>
+    <string name="control_soundControl_mute">静音</string>
+    <string name="controler_exit">退出</string>
+    
+    
+	<string name="app_isExit_title">提示</string>
+	<string name="app_isExit_no">取消</string>
+	<string name="app_isExit_yes">确定</string>
+	<string name="app_isExit_msg">您确定要退出阿福播放器吗？</string>
+	
+	<string name="app_isSdcard_no_msg">您的手机存储卡没有安装好，是否继续？</string>
+	<string name="app_isSdcard_no">继续进入</string>
+	<string name="app_isSdcard_yes">退出</string>
+	<string name="app_isSdcard_playList_msg">您的手机存储卡没有安装好,读不了存储卡的文件。</string>
+	
+	
+	<string name="last_video_msg">已经是最后一个视频了 </string>
+	<string name="front_video_msg">已经是第一个视频了 </string>
+	
+	
+	<string name="error_video_msg_title">对不起 </string>
+	<string name="error_video_msg">您播放的视频格式不正确，或者网络环境不好！ </string>
+	<string name="error_video_sure">知道了 </string>
+	<string name="error_video_learn">去了解 </string>
+	
+	
+	<string name="app_hint_msg">请你按屏幕上的按钮！</string>
+	
+	
+	
+	<string name="auhor_suggest">我的作品</string>
+	<string name="author_informationHead">作者简介</string>
+	<string name="author_contact_info">我来自美丽的贵州黎平 \n
+		黎平侗乡
+	</string>
+	<string name="author_music_pause">暂停</string>
+	<string name="author_music_play">播放</string>
+	
+	
+	<string name="help_titl">使用说明</string>
+	<string name="help_suggest">意见反馈</string>
+	<string name="help_back">返回</string>
+	<string name="help_contact_info">哈哈，看了说明，操作更加便捷。</string>
+	
+		
+		<string
+		name="help_information">
+		&#160;&#160;&#160;&#160;&#160;&#160;【阿福播放器】是android操作系统手机上一款界面超级绚丽，
+		灵巧便捷、组织协调、设计人性化、响应敏捷的多媒体播放器。
+		发布当天就在google市场上下载百万余于次。
+		【阿福播放器】支持本地视频、本地音乐、网络视频、网络音乐的流畅播放。
+		让你畅游在多媒体的世界里，让你流连忘返。
+		本软件由杨光福（自称：阿福）利用业余时间开发，免费提供给大家使用，
+		请大家尽情享受【阿福播放器】所带来的流畅播放体验吧！\n\n\n
+		
+		
+		&#160;&#160;&#160;&#160;&#160;&#160;【支持系版本】\n\n
+		1、完美支持android1.6、android2.0、android2.01、 android2.1、android2.2、android2.3平台\n
+		2、完美支持320×480、480×800、480×854等各种分辨率（自动识别屏幕分辨率）;\n
+		3、支持在线音频、视频播放，支持从浏览器调用【阿福播放器】播放在线音频、视频；\n
+		4、自动转为横屏播放，为用户提供更好的观看体验；\n
+		5、美化了视频播放列表和操作说明的界面。\n\n\n
+	
+		&#160;&#160;&#160;&#160;&#160;&#160;【使用说明】\n\n
+		1、登陆：在屏蔽幕点击本播放器图标，将进入主界面；主界面上有六个按钮，
+		一个图标，左上角还有个版本信息按钮。\n
+		2、主界面：六个按钮分别为[播放列表]、[播放界面]、[设置]、[使用说明]、[看哈作者]、[退出]。\n
+		3、【播放列表】：单击将进入播放列表界面，在播放列表里面可以选择你喜欢的视频文件，也可以返回主界面。\n
+		4、【播放界面】：单击将进入播放界面，这界面里面可以返回主界面，上一个，播放，
+			下一个，还有调音（长按为静音，在长按反之），退出，列表(可以进入播放列表)等按钮。\n
+		5、【设置】:单击进入设置界面，可以设置按钮是否开启声音，设置语言等等。\n
+		6、【使用说明】：单击将进入使用说明界面，就看可以看到使用软件操作的大部分信息。\n
+		7、【看哈作者】：单击将进入使用看哈作者，就可以看到本软件作者的真面，还可以和作者交朋友、合作、投资等。\n
+		8、【退出】：单击将退出软件，欢迎下次使用。\n\n\n
+		
+		&#160;&#160;&#160;&#160;&#160;&#160;【播放界面操作】\n\n
+		 说明：如果你用视频在线播放，你会发现有些功能用不了了，
+		 这不是软件的问题，而是我设计这样的。在线播放的时候有效的按钮是：调音、退出这两按钮；但长安屏蔽事件还是正常。\n
+		1、全屏切换：\t双击屏幕，再次双击换回原来。\n
+		2、播放/暂停：\t长按屏幕/再长按或按播放/暂停。\n
+		3、调音/静音：\t长按调音按钮为静音，反之相反。\n
+		4、播放列表：\t单击列表按钮，便把你手机的\t\t所有视频列出来，供你选择，点击选择选择文件，将进行播放。\n
+		5、上一视频：\t单击上一个按钮，将播放上一个视频文件。\n
+		6、下一视频：\t单击下一个按钮，将播放下一个视频文件。\n\
+		7、返回主页：\t单击主页按钮，便返回主页。\n
+		8、退出：\t单击退出按钮，将弹出对话框，询问是否退出，根据提示操作是否退出。\n\n\n
+		
+		&#160;&#160;&#160;&#160;&#160;&#160;【网上介绍】\n\n
+		1、阿福播放器—百度百科：\thttp://baike.baidu.com/view/4229955.html\n
+		2、阿福技术博客：\thttp://yangguangfu.iteye.com\n\n\n
+		3、下载地址：\thttp://www.eoemarket.com/apps/9348\n\n\n
+		&#160;&#160;&#160;&#160;&#160;&#160;【声明】\n\n
+		
+		声明：本软件所使用的界面材料素材均来自于网络和朋友的修改，如果侵犯了您的合法权益
+		，如果发现和你的作品有雷同或者抄袭请联系我。请联系我，我会及时更换。
+		\n\n感谢您的使用！\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【欢迎邮件联系】\n\n
+		邮件一：email:\t\t\t545609168@qq.com\n
+		
+		1、如果你是国家政要，来邮件的时候千万别说，我这人很怕官。\n
+		2、如果你是老板，嘻嘻，我喜欢，要我帮你做什么呢？先说说。\n
+		3、如果你是要交流技术，嘻嘻，相互进步一直是我的追求。\n
+		4、如果你是对我的设计及功能发表了长达200字的建议或评论，
+		都有机会获得我第一版本的源代码，我会发到你的邮箱。\n
+		5、如果你推荐给1个你的朋友，谢谢你的支持。
+		今年你发财；如果你推荐给10个你的朋友，这一辈子你发财（其实是谢谢你的支持，发财还是靠努力的）。
+		\n\n
+		</string>
+	
+	
+	<string name="author_head">
+		自称：\t阿福\n
+		姓名：\t杨光福\n
+		性别：\t公的\n
+		哪的：\t贵州黎平\n
+		职业：\t软件工程师\n
+		特长：\tjava、android...\n
+		爱好：\t人民币\n\</string>
+		
+		
+	<string name="author_body">
+		\n
+		&#160;&#160;&#160;&#160;&#160;&#160;
+		首先感谢你来到这个界面，这说明你还是想看哈我。
+		为了不让你失望，我不得不把我写得既幽默又有内容。
+		但实在是难合众口
+		于是乎我就任着性子来了，不介意吧(*^__^*) 。\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【我和我的家乡】\n\n
+		我来自某地，这里有山有水，空气清爽，是个天然氧吧；名酒不多，但有茅台；
+		革命转折，遵义会议；天下第一瀑布，黄果树瀑布。
+		世界第一天然石拱桥，黎平天生桥等等。
+		那某地他叫做什么呢？————贵州。（如果你猜的和我一样，证明你地理素养还不错；
+		猜不对，也没有关系啦，多了解哈就行了呗。）
+		我的家乡叫黎平。如果想要了解侗族文化的话，
+		必去的地方之一就是号称天下第一侗乡——黎平侗乡。
+		
+		
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【我和我的努力】\n\n
+		1、个人觉得，人生生死自然，生命短暂，每个人都完蛋，但完蛋是否会有人记住自己。
+		为了死后留名，我们就算流着鼻血都要努力，这是努力的第一个理由。\n
+		2、第一个理由不足以构成去努力的理由，其实啊，我们之所以努力，
+		其实是想让自己活得有尊严。前段时间温总里接受《时代周刊》
+		采访的时候就说：“我们（指政府）尽最大努力让所有的中国人活得有尊严”。\n
+		3、第二个努力的理由不直接，其实我们是为了活得有面子，不给父母负担，
+		在亲朋好友面前有面子。以上三个理由，是我们人类奋斗的源泉，
+		有不同看法的可以发邮件（下面有个发邮件的功能）交流交流，也让俺学学。\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		【我和我的理想】\n\n
+		1、我最想实现自己的人生价值——不想虚度此生。最想实现的梦想是有自己的公司（和朋友开那也算）。
+		2、我最想从事的职业就是：IT管理，或者公司高管。
+		3、如果有和我同样梦想的朋友，可以考虑哈，我们一起创业，前提是你出钱（当然我会压上我的家当），我出力。\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【我和我的特长】\n\n
+		1、超快的学习速度（在保证睡眠充分的情况下）。\n
+		2、和朋友做事希望两个做得开心，不想斤斤计较，够意思呗。\n
+		3、俺会吹牛，能和不同年龄阶段的人聊天，沟通效果胜过谈判专家；
+		4、俺曾经开导过无数少年“暗恋”变为“冲动”，成就多少佳话。\n
+		5、俺大学期间做过业务员，当过推销。自己出租自行车，从6辆发展到30辆，也算当过老板的人吧。\n
+		 但因为挂科被迫甩卖告终，这足以说明我总是一心一意做一件事吧。\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【如果你是某老板】\n\n
+		1、如果你要android技术支持，联系我吧。\n
+		2、如果你要IT管理人员，叫我吧，虽然不是很熟悉，但路不远了；但至少也有过指导过两个从来没有接触开发的人员（java零基础）在5个月内能
+		不交任何费用就能实现就业，并能找到5K的工作，我主要培养他们的是怎样快速学习的能力。\n
+		3、如果你需要人合作，开公司啊，我可以出力，但记得分我点股份，我会尽我最大力量帮助公司高速发展。
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		
+		【如果你是和我同梦想的朋友】\n\n
+		1、多交流吧，有时候在交流的冲动中学到很多东西。\n
+		2、我们都努力吧，争取做时代的先锋。\n
+		3、建议不要太累，身体要紧，我知道你很累，因为我也为梦想奔波累啊，但幸福。
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【如果你是我的同学】\n\n
+		1、看到我的软件后给我打个电话吧，我其实很想你们，只是太忙，或者换号码后你的名单消失了。\n
+		2、其实我天天在线，但隐身，从事“地下工作”。\n
+		3、如果你们结婚了，记得告诉我一声，即使我来不了，但礼物一定到。\n
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【如果你是我的家人】\n\n
+		1、爸爸，妈妈您辛苦了。\n
+		2、哥哥姐姐好好把你们的【贵族岛床垫】http://www.guizudao.com/推向全国。\n
+		3、如果你是我的侄子侄女外甥女，快快成长，舅舅，叔叔带你们看天安门。\n
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		【欢迎您来邮件】\n\n
+		1、如果你是国家政要，来邮件的时候千万别说，我这人很怕官。\n
+		2、如果你是老板，嘻嘻，我喜欢，要我帮你做什么呢？先说说。\n
+		3、如果你是要交流技术，嘻嘻，相互进步一直是我的追求。\n
+		4、如果你对我的设计及功能发表了长达200字的建议或评论，
+		都有机会获得我第一版本的源代码，我会发到你的邮箱。\n
+		5、如果你推荐给你的1个朋友，谢谢你的支持。
+		今年你发财；如果你推荐给你的10个朋友，这一辈子你发财（其实是谢谢你的支持，发财还是靠努力的）。
+		\n\n&#160;&#160;&#160;&#160;&#160;&#160;
+		
+		</string>
+		
+	<string name="version_information_head">
+		\n
+		版本号：\tv1.3\n
+		版本名：\t1.3\n
+		版次：\t4\n
+		作者：\t自称：阿福（杨光福）\n
+		特长：\t界面绚丽，响应敏捷...\n
+		QQ群：150864794
+		</string>
+		
+		
+		
+		
+	<string
+		name="version_info_bottom">版本号：v2.0  \n
+		版本名：自强
+	</string>	
+	
+	
+	<string
+		name="information_copyright">©2011 阿福.</string>
+
+</resources>
